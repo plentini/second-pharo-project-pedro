@@ -1,7 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'secondpharoprojectpedro',
+      #baseline : 'SecondPharoProjectPedro',
       #directory : 'source',
       #load : [ 'CI' ],
       #platforms : [  #pharo ]
@@ -9,7 +9,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #packages : [ 'second-pharo-project-pedro*' ],
+      #packages : [ 'SecondPharoProjectPedro*' ],
       #format: #lcov
     }
   }
