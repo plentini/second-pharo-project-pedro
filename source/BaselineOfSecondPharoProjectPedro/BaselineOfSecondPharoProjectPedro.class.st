@@ -24,11 +24,11 @@ BaselineOfSecondPharoProjectPedro >> baselineSecondPharoProjectPedro: spec [
 
 	spec
 		package: 'SecondPharoProjectPedro';
-		package: 'SecondPharoProjectPedroTest'
+		package: 'SecondPharoProjectPedroTests'
 			with: [ spec
 				requires: #('SecondPharoProjectPedro') ];
 		group: 'Deployment' with: #('SecondPharoProjectPedro');
-		group: 'Tests' with: #('SecondPharoProjectPedroTest')
+		group: 'Tests' with: #('SecondPharoProjectPedroTests')
 
 
 ]
